@@ -1,4 +1,5 @@
-<img width="961" height="962" alt="2026-05-17 - 12_38_30 - noteX v1 6" src="https://github.com/user-attachments/assets/3f9dded7-9d3d-45f1-ab92-6e084f29b2b5" />
+<img width="961" height="962" alt="2026-05-17 - 12_38_30 - noteX v1 6" src="https://github.com/user-attachments/assets/41fc71a3-90f3-4607-9758-9cc9430d9a9d" />
+
 
 # noteX v1.0
 
@@ -6,7 +7,8 @@
 
 This first public release focuses on a stable note-taking experience with authentication, internal workspaces, backup/restore, and a block-based editor.
 
-<img width="961" height="962" alt="2026-05-17 - 12_37_37 - noteX v1 6" src="https://github.com/user-attachments/assets/8b3ac41f-0df5-4b3f-838e-7235cb3529d7" />
+<img width="961" height="962" alt="2026-05-17 - 12_37_37 - noteX v1 6" src="https://github.com/user-attachments/assets/121a64b8-d045-4881-95ea-b8a3ed6b2b6c" />
+
 
 ## Description
 
@@ -15,8 +17,6 @@ noteX is built as a modern productivity and note-taking application for users wh
 It supports both Google login and local password-based access. Notes are stored locally in the browser using IndexedDB, making the app local-first and usable without a backend server. Each user can manage separate internal workspaces such as Personal, Work, and Business.
 
 ## Features
-
-<img width="312" height="411" alt="image" src="https://github.com/user-attachments/assets/e6882dc8-b7a0-41b6-b675-75b623e75f9b" />
 
 
 ### Authentication
@@ -27,7 +27,7 @@ It supports both Google login and local password-based access. Notes are stored 
 - Account Center for switching between users.
 - Account Settings for display name and profile picture.
 
-<img width="455" height="393" alt="image" src="https://github.com/user-attachments/assets/44a5178d-d927-434e-a7c1-9734e118392e" />
+<img width="551" height="481" alt="image" src="https://github.com/user-attachments/assets/ee737b69-cfe4-4ae8-8eee-74a4faa886c5" />
 
 
 ### Workspaces
@@ -36,6 +36,9 @@ It supports both Google login and local password-based access. Notes are stored 
 - Default workspaces: Personal, Work, and Business.
 - Create, rename, delete, and switch workspaces.
 - Workspace data is separated by account.
+
+<img width="658" height="465" alt="image" src="https://github.com/user-attachments/assets/242bffa2-1d81-4b11-8af7-31e63237a36d" />
+
 
 ### Notes and Editor
 
@@ -53,7 +56,7 @@ It supports both Google login and local password-based access. Notes are stored 
 - Code language selector.
 - Syntax highlighting support for common languages such as CSS, Python, PHP, Perl, Ruby, Go, C, C++, YAML, SQL, shell, logs, and config-like formats.
 
-<img width="627" height="277" alt="image" src="https://github.com/user-attachments/assets/4573d4af-589c-4457-a9a2-ec52f885545a" />
+<img width="864" height="435" alt="image" src="https://github.com/user-attachments/assets/fc313096-5d56-4352-a928-c7f003944a0a" />
 
 
 ### Tables
@@ -79,13 +82,14 @@ It supports both Google login and local password-based access. Notes are stored 
 - Snapshot history modal.
 - Backup data includes users, workspaces, pages, blocks, and settings.
 
+<img width="785" height="629" alt="image" src="https://github.com/user-attachments/assets/156f0f8d-f870-403a-9dfc-c2ea3ffae8a0" />
+
+
 ### Local-First Storage
 
 - Data is stored in browser IndexedDB.
 - Signing out does not delete local data.
 - Backup is recommended before moving to another device or browser.
-
-<img width="774" height="632" alt="image" src="https://github.com/user-attachments/assets/d1457221-85aa-49e9-a72a-663cf2f10766" />
 
 
 ## Requirements
