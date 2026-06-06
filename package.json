@@ -1,0 +1,26 @@
+{
+  "name": "notex-v1.7.015",
+  "private": true,
+  "version": "1.7.015",
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js --host 0.0.0.0 --port 6001",
+    "dev:https": "VITE_HTTPS=true node node_modules/vite/bin/vite.js --host 0.0.0.0 --port 6002",
+    "build": "node node_modules/typescript/lib/tsc.js && node node_modules/vite/bin/vite.js build",
+    "preview": "node node_modules/vite/bin/vite.js preview --host 0.0.0.0 --port 8080"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "2.3.0",
+    "@vitejs/plugin-react": "6.0.2",
+    "dexie": "4.4.2",
+    "lucide-react": "1.16.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "typescript": "6.0.3",
+    "vite": "8.0.13"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}
